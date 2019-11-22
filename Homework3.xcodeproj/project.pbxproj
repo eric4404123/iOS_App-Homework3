@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		492C90A52386ADC0004E6803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C90A42386ADC0004E6803 /* AppDelegate.swift */; };
 		492C90A72386ADC0004E6803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C90A62386ADC0004E6803 /* SceneDelegate.swift */; };
-		492C90A92386ADC0004E6803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C90A82386ADC0004E6803 /* ViewController.swift */; };
 		492C90AC2386ADC0004E6803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C90AA2386ADC0004E6803 /* Main.storyboard */; };
 		492C90AE2386ADC1004E6803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C90AD2386ADC1004E6803 /* Assets.xcassets */; };
 		492C90B12386ADC1004E6803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C90AF2386ADC1004E6803 /* LaunchScreen.storyboard */; };
+		492C90B92386B1F4004E6803 /* QnAPsyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C90B82386B1F4004E6803 /* QnAPsyViewController.swift */; };
+		492C90BB2386B52C004E6803 /* QAStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C90BA2386B52C004E6803 /* QAStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		492C90A12386ADC0004E6803 /* Homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C90A12386ADC0004E6803 /* 測試你有多宅.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "測試你有多宅.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		492C90A42386ADC0004E6803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		492C90A62386ADC0004E6803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		492C90A82386ADC0004E6803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		492C90AB2386ADC0004E6803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492C90AD2386ADC1004E6803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492C90B02386ADC1004E6803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492C90B22386ADC1004E6803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C90B82386B1F4004E6803 /* QnAPsyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnAPsyViewController.swift; sourceTree = "<group>"; };
+		492C90BA2386B52C004E6803 /* QAStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		492C90A22386ADC0004E6803 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				492C90A12386ADC0004E6803 /* Homework3.app */,
+				492C90A12386ADC0004E6803 /* 測試你有多宅.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +60,9 @@
 			children = (
 				492C90A42386ADC0004E6803 /* AppDelegate.swift */,
 				492C90A62386ADC0004E6803 /* SceneDelegate.swift */,
-				492C90A82386ADC0004E6803 /* ViewController.swift */,
 				492C90AA2386ADC0004E6803 /* Main.storyboard */,
+				492C90BA2386B52C004E6803 /* QAStruct.swift */,
+				492C90B82386B1F4004E6803 /* QnAPsyViewController.swift */,
 				492C90AD2386ADC1004E6803 /* Assets.xcassets */,
 				492C90AF2386ADC1004E6803 /* LaunchScreen.storyboard */,
 				492C90B22386ADC1004E6803 /* Info.plist */,
@@ -84,7 +87,7 @@
 			);
 			name = Homework3;
 			productName = Homework3;
-			productReference = 492C90A12386ADC0004E6803 /* Homework3.app */;
+			productReference = 492C90A12386ADC0004E6803 /* 測試你有多宅.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492C90A92386ADC0004E6803 /* ViewController.swift in Sources */,
+				492C90BB2386B52C004E6803 /* QAStruct.swift in Sources */,
 				492C90A52386ADC0004E6803 /* AppDelegate.swift in Sources */,
+				492C90B92386B1F4004E6803 /* QnAPsyViewController.swift in Sources */,
 				492C90A72386ADC0004E6803 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EricLiu.example.Homework3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "測試你有多宅";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EricLiu.example.Homework3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "測試你有多宅";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
